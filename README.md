@@ -4,7 +4,29 @@ filament ini sangat asik digunakan dengan semua kemudahan yang di berikan oleh f
 
 ## Install fillament
 Sebelum menggunakan filament admin, tentunya kita harus persiapkan terlebih dahulu project laravel kita.
+
 kalau sudah selesai install projek lanjut tulisan perintah di bawah 
-[composer require filament/filament:"^2.0"]
+
+```md
+composer require filament/filament:"^2.0"
+```
 
 
+Membuat filament user:
+```md
+php artisan make:filament-user
+```
+
+Setelah menjalankan perintah tersebut kamu akan diminta untuk memasukkan nama, email, dan password untuk akun yang dibuat.
+```md
+ Name:
+ > Ruang Developer
+
+ Email address:
+ > mail@ruangdeveloper.com
+
+ Password:
+ >
+
+Success! mail@ruangdeveloper.com may now log in at http://localhost/admin/login.
+```
